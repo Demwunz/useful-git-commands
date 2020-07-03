@@ -1,5 +1,5 @@
-# useful-git-commands
-A collection of useful git commands
+# Useful Git commands
+A collection of useful git commands, because I'm lazy and can't be bothered to remember off by heart
 
 
 ### delete all local branches that have been merged into master
