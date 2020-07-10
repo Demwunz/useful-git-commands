@@ -25,3 +25,9 @@ scenario: you have made a whole bunch of changes and they all deserve to be in s
 ```sh
 git add -p
 ```
+
+### reset your branch to a commit, but keep the changes
+scenario: you made a bunch of changes, you have some messed up history, you want to organise your shit
+```sh
+git reset --soft <commit>
+```
