@@ -16,3 +16,8 @@ git commit --amend --date="now"
 ```sh
 git commit --allow-empty -m "This will trigger a build"
 ```
+
+### add hunks of code instead of entire files
+```sh
+git add -p
+```
