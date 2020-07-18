@@ -20,6 +20,12 @@ scenario: You just need to force git to accept a commit without editing files. U
 git commit --allow-empty -m "This will trigger a build"
 ```
 
+### add files without a commit message (opposite of previous command)
+scenario: You just need to push some files, but there isn't any significant thing to say e.g removeing console.log commands
+```sh
+git commit --allow-empty-mesage -m "" --- no commit message
+```
+
 ### add hunks of code instead of entire files
 scenario: you have made a whole bunch of changes and they all deserve to be in seperate commits
 ```sh
