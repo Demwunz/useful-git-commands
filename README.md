@@ -5,7 +5,7 @@ A collection of useful git commands, because I'm lazy and can't be bothered to r
 ### delete all local branches that have been merged into master
 scenario: free up space on your machine. delete anything that's been merged, no need to have it any more.
 ```sh
-git branch --merged master | grep -v "\* master" | xargs -n 1 git branch -
+git branch --merged master | grep -v "\* master" | xargs -n 1 git branch -d
 ```
 
 ### amend a commit to the current time
