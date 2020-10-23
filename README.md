@@ -23,7 +23,7 @@ git commit --allow-empty -m "This will trigger a build"
 ### add files without a commit message (opposite of previous command)
 scenario: You just need to push some files, but there isn't any significant thing to say e.g removeing console.log commands
 ```sh
-git commit --allow-empty-mesage -m "" --- no commit message
+git commit --allow-empty-mesage -m ""
 ```
 
 ### add hunks of code instead of entire files
