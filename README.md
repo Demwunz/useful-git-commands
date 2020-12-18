@@ -26,6 +26,12 @@ scenario: You just need to push some files, but there isn't any significant thin
 git commit --allow-empty-message -m ""
 ```
 
+### commit again, don't change anything, but get a new hash
+scenario: useful when you need to kick off another build 
+```sh
+git commit --amend --no-edit -m "nothing changed. need to trigger something"
+```
+
 ### add hunks of code instead of entire files
 scenario: you have made a whole bunch of changes and they all deserve to be in seperate commits
 ```sh
