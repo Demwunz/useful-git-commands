@@ -43,3 +43,9 @@ scenario: you made a bunch of changes, you have some messed up history, you want
 ```sh
 git reset --soft <commit>
 ```
+
+### revert your branch to a previous commit, without resetting the branch
+scenario: you commit a bunch of stuff, pushed to github, but now you need to back out the changes, and preserve git history
+```sh
+git revert -m 1 <commit id>
+```
